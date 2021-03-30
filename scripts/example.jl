@@ -25,3 +25,6 @@ plot(plot.(image(x, [1,2]))...; axis = nothing, border = :none)
 
 x = FashionMNIST.traintensor(1:10);
 plot(imagegrid(x, 1:10; nrows = 2, sep = 2); axis = nothing, border = :none)
+
+x = CIFAR10.traintensor(1:10);
+imageplot(x, 1:10; nrows = 2, sep = 1, background = RGB(184/255, 223/255, 250/255))
