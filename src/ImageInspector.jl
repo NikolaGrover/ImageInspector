@@ -65,4 +65,11 @@ function imagegrid(x, inds; flip = true, sep = 1, kwargs...)
     end
     return A
 end
+
+using Requires
+
+function __init__()
+    @require Plots="91a5bcdd-55d7-5caf-9e0b-520d859cae80" include("imageplot.jl")
+end
+
 end

@@ -262,7 +262,7 @@ uuid = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 version = "0.9.5"
 
 [[ImageInspector]]
-deps = ["Colors"]
+deps = ["Colors", "Requires"]
 path = ".."
 uuid = "f0b0879e-5dcd-44af-969f-7ca1f2000598"
 version = "0.1.0"
